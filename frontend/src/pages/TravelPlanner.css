@@ -1,0 +1,127 @@
+.planner-container {
+  padding: 40px;
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+.planner-title {
+  margin-bottom: 20px;
+}
+
+.planner-content {
+  display: flex;
+  gap: 40px;
+}
+
+.planner-form-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Normal Inputs */
+.planner-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  height: 42px;
+  box-sizing: border-box;
+}
+
+/* Button */
+.planner-btn {
+  width: 100%;
+  padding: 12px;
+  background: #1f2a44;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.planner-btn:hover {
+  background: #162035;
+}
+
+/* Cards Section */
+.planner-cards {
+  flex: 1;
+}
+
+.planner-card {
+  display: flex;
+  gap: 20px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.planner-image {
+  width: 140px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.planner-info {
+  flex: 1;
+}
+
+.planner-delete {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: red;
+}
+
+/* ===== LABEL STYLE ===== */
+
+.input-label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+/* ===== PERFECT REACT-SELECT SIZE MATCH ===== */
+
+.react-select__control {
+  height: 42px !important;
+  min-height: 42px !important;
+  border-radius: 6px !important;
+  border: 1px solid #ccc !important;
+  box-shadow: none !important;
+  margin: 10px 0 !important;
+  padding: 0 !important;
+}
+
+.react-select__value-container {
+  height: 42px !important;
+  padding: 0 10px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.react-select__indicators {
+  height: 42px !important;
+}
+
+.react-select__indicator-separator {
+  display: none !important;
+}
+
+.react-select__control:hover {
+  border-color: #1f2a44 !important;
+}
+
+.react-select__menu {
+  z-index: 9999 !important;
+}

@@ -1,0 +1,22 @@
+.explore-container {
+  padding: 40px;
+  min-height: 80vh;
+}
+
+.explore-title {
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.place-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.no-data {
+  margin-top: 20px;
+  color: gray;
+  font-size: 16px;
+}

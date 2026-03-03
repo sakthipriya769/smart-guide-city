@@ -1,0 +1,78 @@
+.trips-container {
+  padding: 40px;
+}
+
+.trips-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.create-btn {
+  padding: 10px 18px;
+  background: #1f2a44;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.trip-grid {
+  display: flex;
+  gap: 25px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.trip-card {
+  width: 280px;
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.status {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.status.upcoming {
+  color: #f39c12;
+}
+
+.status.completed {
+  color: #27ae60;
+}
+
+.trip-actions {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.view-btn {
+  flex: 1;
+  padding: 8px;
+  background: #1f2a44;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  flex: 1;
+  padding: 8px;
+  background: #d9534f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.empty-state {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 18px;
+}

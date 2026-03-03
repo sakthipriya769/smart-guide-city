@@ -1,0 +1,68 @@
+.dashboard-container {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 300px;
+  height: calc(100vh - 70px);
+  background-color: #1f2a40;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px;
+  position: sticky;
+  top: 70px;
+}
+
+/* Menu */
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Links */
+.sidebar-link {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 16px 0;
+  transition: 0.3s;
+  white-space: nowrap;
+}
+
+.profile-link {
+  color: #b26be3;
+  font-weight: bold;
+}
+
+.sidebar-link:hover {
+  color: #f39c12;
+  padding-left: 8px;
+}
+
+/* Logout smaller */
+.logout-btn {
+  padding: 12px;
+  font-size: 18px;   /* Reduced */
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #c0392b;
+}
+
+/* Content */
+.dashboard-content {
+  flex: 1;
+  background-color: #f4f6f9;
+  padding: 40px;
+  font-size: 24px;
+}

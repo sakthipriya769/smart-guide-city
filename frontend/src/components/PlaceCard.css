@@ -1,0 +1,51 @@
+.place-card {
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.place-card:hover {
+  transform: translateY(-5px);
+}
+
+.place-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.place-content {
+  padding: 15px;
+}
+
+.place-content h3 {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.location {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.view-btn {
+  padding: 8px 12px;
+  border: none;
+  background-color: #1e293b;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-btn:hover {
+  opacity: 0.9;
+}
